@@ -206,7 +206,7 @@ section {
 .image1 {
     font-family: cinzel;
     justify-content: center;
-    background-image: url(/image/library.JPG);
+    /* background-image: url(/image/library.JPG); */
     width: 100%;
     height: 900px;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ section {
 .image2 {
     font-family: cinzel;
     justify-content: center;
-    background-image: url(/image/games.JPG);
+    /* background-image: url(/image/games.JPG); */
     width: 100%;
     height: 900px;
     background-repeat: no-repeat;
