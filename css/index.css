@@ -1,0 +1,664 @@
+/* @font-face {
+    font-family: "nostalgia";
+    src: url(/font/NostalgiaFont/);
+} */
+
+@font-face {
+    font-family: "yellowmag";
+    src: url(/font/yellowmag/YellowMagician.ttf);
+}
+
+@font-face {
+    font-family: "cinzel";
+    src: url(/font/cinzel/Cinzel-Regular.ttf);
+}
+
+@font-face {
+    font-family: "choc";
+    src: url(/font/choc_box/C_BOX.TTF);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Popins', sans-serif;
+}
+
+*:root {
+    --black-color: #1b1c1e;
+    --white-color: #fbfbfb;
+    --black-gradient: linear-gradient(315deg, #2d3436 0%, #2d3436 74%);
+}
+
+html {
+    font-size: 80%;
+}
+
+
+body {
+    background: var(--black-color);
+    transition: 1s;
+}
+
+section {
+    min-height: 100vh;
+    padding: 0 9%;
+}
+
+.head {
+    width: 100%;
+    height: 11rem;
+    justify-content: center;
+    position: relative;
+    margin: .3rem;
+}
+
+.head .mptc-logo {
+    position: relative;
+    display: inline-block;
+    margin-left: 10rem;
+    padding: 1rem;
+    width: 10rem;
+}
+
+.head .name {
+    position: relative;
+    display: inline-block;
+    margin-left: 15rem;
+    animation-delay: 1s;
+    font-family: cinzel;
+}
+
+.head1 {
+    position: relative;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+    text-align: center;
+    background: var(--black-gradient);
+}
+
+.head1 .navbar {
+    position: relative;
+    text-align: center;
+    height: 5rem;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+}
+
+.home-page {
+    width: 100%;
+    height: 800px;
+}
+
+.short {
+    width: 20%;
+    float: left;
+    font-size: 4rem;
+    height: 800px;
+    background: black;
+}
+
+.s1,
+.s2,
+.s3,
+.s4 {
+    display: block;
+    font-size: 3rem;
+    margin-top: 6rem;
+    font-family: yellowmag;
+}
+
+.small {
+    position: relative;
+    font-size: 2rem;
+    top: 3rem;
+}
+
+.ss1,
+.ss2,
+.ss3 {
+    display: block;
+    font-family: yellowmag;
+}
+
+.image-div {
+    position: relative;
+    width: 80%;
+    float: right;
+}
+
+.homeImage {
+    height: 800px;
+}
+
+.carousel-img {
+    height: 800px;
+}
+
+.scope {
+    width: 100%;
+    height: 50rem;
+    justify-content: center;
+    position: relative;
+    margin: .3rem;
+}
+
+.scope-text {
+    position: relative;
+    width: 100%;
+    height: 21rem;
+    justify-content: center;
+    letter-spacing: .2rem;
+    background: black;
+    text-align: center;
+}
+
+.img-t {
+    padding-top: 25rem;
+    margin-left: 2rem;
+    font-family: choc;
+}
+
+.sc {
+    font-family: choc;
+}
+
+.pera {
+    width: 100%;
+    font-size: 1.1rem;
+    color: var(--white-color);
+    letter-spacing: 0rem;
+    font-family: cinzel;
+
+}
+
+.parat {
+    font-family: cinzel;
+}
+
+.p-t {
+    padding-left: 2rem;
+    text-align: center;
+    line-height: 1rem;
+    font-family: cinzel;
+
+}
+
+.simg-1 {
+    position: relative;
+    padding: 4rem;
+    width: 50%;
+    height: 925px;
+    float: left;
+    background: var(--black-color);
+}
+
+.image1 {
+    font-family: cinzel;
+    justify-content: center;
+    background-image: url(/image/library.JPG);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: 58rem 800px;
+}
+
+.simg-2 {
+    position: relative;
+    padding: 4rem;
+    width: 50%;
+    height: 925px;
+    float: right;
+    background: var(--black-color);
+}
+
+.image2 {
+    font-family: cinzel;
+    justify-content: center;
+    background-image: url(/image/games.JPG);
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: 58rem 800px;
+}
+
+.footer {
+    background: black;
+    width: 100%;
+}
+
+.f-t {
+    color: var(--white-color);
+    font-family: choc;
+}
+
+.sec {
+    width: 100%;
+    float: left;
+    justify-content: center;
+    background: black;
+}
+
+.f-head {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.c-right {
+    padding-top: 2rem;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.c-right p {
+    font-size: 2rem;
+    font-family: choc;
+}
+
+.social {
+    padding-top: 1rem;
+}
+
+.sol {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* .sec1 {
+    width: 50%;
+    float: left;
+    justify-content: center;
+    background: black;
+} */
+
+/* #location {
+    width: 100%;
+    height: 310px;
+} */
+
+.sol a.fa {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--white-color);
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 2.rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    transition: .5s;
+    margin-left: 15px;
+}
+
+.sol a.in {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--white-color);
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 2.rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    transition: .5s;
+    margin-left: 15px;
+}
+
+.sol a.lk {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: var(--white-color);
+    border: #fbfbfb;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 2.rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5);
+    transition: .5s;
+    margin-left: 15px;
+}
+
+.sol a.fa i {
+    font-size: 1.7rem;
+    color: #4267B2;
+    line-height: 4rem;
+    transition: .5s;
+}
+
+.sol a.in i {
+    font-size: 1.7rem;
+    color: #C13584;
+    line-height: 4rem;
+    transition: .5s;
+}
+
+.sol a.lk i {
+    font-size: 1.7rem;
+    color: #0077b5;
+    line-height: 4rem;
+    transition: .5s;
+}
+
+.sol a.fa:hover {
+    background: #4267B2;
+    transform: translateY(-10px);
+    box-shadow: 0 .5rem .8rem rgba(152, 141, 141, 0.99);
+}
+
+.sol a.in:hover {
+    background: #E1306C;
+    transform: translateY(-10px);
+    box-shadow: 0 .5rem .8rem rgba(152, 141, 141, 0.99);
+}
+
+.sol a.lk:hover {
+    background: #0077b5;
+    box-shadow: 0 .5rem 1rem rgba(152, 141, 141, 0.99);
+    transform: translateY(-10px);
+}
+
+.sol a:hover i {
+    color: white;
+}
+
+  
+.rotate-center {
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+    animation: rotate-center 0.6s ease-in-out both;
+}
+
+.fade-in-left {
+    -webkit-animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in-left {
+    0% {
+        -webkit-transform: translateX(-100px);
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes rotate-center {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width:600px) {
+    .head {
+        width: 98%;
+        height: 15.5rem;
+        justify-content: center;
+        background: var(--black-color);
+    }
+
+    .head .mptc-logo {
+        position: relative;
+        display: inline-block;
+        margin-left: 36%;
+        padding: 1rem;
+        width: 10rem;
+    }
+
+    .head .name {
+        font-size: 1.5rem;
+        position: relative;
+        display: inline-block;
+        margin-left: 19%;
+        animation-delay: 1s;
+    }
+
+    .head1 {
+        position: relative;
+        width: 100%;
+        height: 10rem;
+        justify-content: center;
+        text-align: center;
+        background: var(--black-color);
+    }
+
+    .head1 .navbar {
+        position: relative;
+        text-align: center;
+        top: 0;
+        height: 20rem;
+        width: 100%;
+        margin-left: 0%;
+        background: var(--black-gradient);
+    }
+
+    .home-page {
+        width: 100%;
+        height: 1600px;
+    }
+
+    .short {
+        width: 100%;
+        float: left;
+        font-size: 4rem;
+        height: 800px;
+        background: black;
+    }
+
+    .image-div {
+        position: relative;
+        width: 100%;
+        float: right;
+    }
+
+    .simg-1 {
+        position: relative;
+        padding: 0rem;
+        width: 100%;
+        height: 925px;
+        float: left;
+    }
+
+    .simg-2 {
+        position: relative;
+        padding: 0rem;
+        width: 100%;
+        float: right;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .head {
+        width: 98%;
+        height: 15.5rem;
+        justify-content: center;
+        background: var(--black-color);
+    }
+
+    .head .mptc-logo {
+        position: relative;
+        display: inline-block;
+        margin-left: 40%;
+        padding: 1rem;
+        width: 10rem;
+    }
+
+    .head .name {
+        font-size: 2rem;
+        position: relative;
+        display: inline-block;
+        margin-left: 20%;
+        animation-delay: 1s;
+    }
+
+    .head1 {
+        position: relative;
+        width: 100%;
+        height: 10rem;
+        justify-content: center;
+        text-align: center;
+        background: var(--black-color);
+    }
+
+    .head1 .navbar {
+        position: relative;
+        text-align: center;
+        top: 0;
+        height: 9rem;
+        width: 100%;
+        margin-left: 0%;
+        background: var(--black-gradient);
+    }
+
+    .abtn {
+        margin-right: 10rem;
+    }
+
+    .home-page {
+        width: 100%;
+        height: 800px;
+    }
+
+    .short {
+        width: 30%;
+        float: left;
+        font-size: 4rem;
+        height: 800px;
+        background: black;
+    }
+
+    .image-div {
+        position: relative;
+        width: 70%;
+        float: right;
+    }
+
+    .simg-1 {
+        position: relative;
+        padding: 0rem;
+        width: 100%;
+        height: 925px;
+    }
+
+    .simg-2 {
+        position: relative;
+        padding: 0rem;
+        width: 100%;
+    }
+
+    /* .sec2 {
+        position: relative;
+        width: 100%;
+        justify-content: center;
+        background: black;
+    } */
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .head {
+        width: 99%;
+        height: 15rem;
+        justify-content: center;
+        background: var(--black-color);
+    }
+    .head .mptc-logo {
+        position: relative;
+        display: inline-block;
+        margin-left: 40%;
+        padding: 1rem;
+        width: 10rem;
+    }
+    .head .name {
+        font-size: 2rem;
+        position: relative;
+        display: inline-block;
+        margin-left: 25%;
+        animation-delay: 1s;
+    }
+
+    .head1 {
+        position: relative;
+        width: 100%;
+        height: 5rem;
+        justify-content: center;
+        text-align: center;
+        background: var(--black-color);
+    }
+
+    .head1 .navbar {
+        position: relative;
+        text-align: center;
+        top: 0;
+        height: 10rem;
+        width: 90%;
+        margin-left: 5%;
+        background: var(--black-gradient);
+    }
+
+    .simg-1 {
+        position: relative;
+        padding: 0rem;
+        width: 50%;
+        height: 850px;
+        border: 8px solid black;
+    }
+
+    .simg-2 {
+        position: relative;
+        padding: 0rem;
+        width: 50%;
+        height: 850px;
+        border: 8px solid black;
+    }
+}
+@media (min-width: 993px) and (max-width: 1200px){
+    .head {
+        width: 98%;
+        height: 13rem;
+        justify-content: center;
+        background: var(--black-color);
+    }
+
+    .head .mptc-logo {
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+        padding: 1rem;
+        width: 10rem;
+    }
+
+    .head .name {
+        font-size: 2rem;
+        position: relative;
+        display: inline-block;
+        margin-left: 10%;
+        animation-delay: 1s;
+    }
+    .head1 {
+        position: relative;
+        width: 100%;
+        height: 6rem;
+        justify-content: center;
+        text-align: center;
+        background: var(--black-color);
+    }
+}
