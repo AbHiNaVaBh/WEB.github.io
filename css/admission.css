@@ -1,0 +1,18 @@
+*:root {
+    --black-color: #1b1c1e;
+    --white-color: #fbfbfb;
+    --black-gradient: linear-gradient(315deg, #2d3436 0%, #2d3436 74%);
+}
+
+body{
+    background-color: var(--black-color);
+}
+.headHeader{
+    background-color:var(--white-color);
+}
+.formSection{
+    background-color:var(--white-color);
+}
+.button{
+    margin-left: 40%;
+}
