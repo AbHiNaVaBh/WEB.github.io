@@ -12,6 +12,8 @@ body{
 }
 .formSection{
     background-color:var(--white-color);
+    width: 90%;
+    margin-left: 5%;
 }
 .button{
     margin-left: 40%;

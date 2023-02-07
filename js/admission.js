@@ -1,49 +1,39 @@
-document.querySelector('.form-check').addEventListener('submit', function(e) {
-    e.preventDefault();
-  
-    var firstName = document.querySelector('input[placeholder="Your name.."]').value;
-    var lastName = document.querySelector('input[placeholder="Your last name.."]').value;
-    var phoneNumber = document.querySelector('input[placeholder="123xxxxxx"]').value;
-    var dateOfBirth = document.querySelector('input[type="date"]').value;
-    var email = document.querySelector('input[placeholder="abcd@gmail.com"]').value;
-    var courses = document.querySelector('select[id=""]').value;
-    var qualification = document.querySelector('select[id=""]').value;
-  
-    if (!firstName) {
-      alert('Please enter your first name.');
-      return false;
+
+
+// Get the input field
+var dobInput = document.getElementById("dob");
+
+// Listen for input changes
+dobInput.addEventListener("input", function () {
+    // Get the current value
+    var dobValue = dobInput.value;
+
+    // Check if the value is a valid date
+    if (new Date(dobValue).toString() === "Invalid Date") {
+        // Add the "is-invalid" class
+        dobInput.classList.add("is-invalid");
+    } else {
+        // Remove the "is-invalid" class
+        dobInput.classList.remove("is-invalid");
     }
-  
-    if (!lastName) {
-      alert('Please enter your last name.');
-      return false;
-    }
-  
-    if (!phoneNumber) {
-      alert('Please enter your phone number.');
-      return false;
-    }
-  
-    if (!dateOfBirth) {
-      alert('Please enter your date of birth.');
-      return false;
-    }
-  
-    if (!email) {
-      alert('Please enter your email address.');
-      return false;
-    }
-  
-    if (courses === 'select a course') {
-      alert('Please select a course.');
-      return false;
-    }
-  
-    if (qualification === 'select') {
-      alert('Please select your qualification.');
-      return false;
-    }
-  
-    alert('Form submitted successfully!');
-  });
-  
+});
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    const forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+        }, false)
+    })
+})()
