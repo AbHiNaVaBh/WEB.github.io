@@ -3,20 +3,21 @@
     src: url(/font/NostalgiaFont/);
 } */
 
-@font-face {
+
+/* @font-face {
     font-family: "yellowmag";
     src: url(/font/yellowmag/YellowMagician.ttf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: "cinzel";
     src: url(/font/cinzel/Cinzel-Regular.ttf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: "choc";
     src: url(/font/choc_box/C_BOX.TTF);
-}
+} */
 
 * {
     margin: 0;
@@ -25,7 +26,7 @@
     text-decoration: none;
     outline: none;
     border: none;
-    font-family: 'Popins', sans-serif;
+    /* font-family: 'Popins', sans-serif; */
 }
 
 *:root {
@@ -70,7 +71,7 @@ section {
     display: inline-block;
     margin-left: 15rem;
     animation-delay: 1s;
-    font-family: cinzel;
+    font-family:'courier';
 }
 
 .head1 {
@@ -115,7 +116,7 @@ section {
     display: block;
     font-size: 3rem;
     margin-top: 6rem;
-    font-family: yellowmag,'YellowMagician';
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .small {
