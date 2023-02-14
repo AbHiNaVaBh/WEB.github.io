@@ -23,6 +23,10 @@
     text-align: center;
 }
 
+.seat{
+    font-size: 2rem;
+}
+
 .apera {
     width: 100%;
     font-size: 1rem;
