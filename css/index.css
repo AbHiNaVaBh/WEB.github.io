@@ -71,7 +71,7 @@ section {
     display: inline-block;
     margin-left: 15rem;
     animation-delay: 1s;
-    font-family:'courier';
+    font-family: 'courier';
 }
 
 .head1 {
@@ -129,7 +129,7 @@ section {
 .ss2,
 .ss3 {
     display: block;
-    font-family: yellowmag,"YellowMagician";
+    font-family: yellowmag, "YellowMagician";
 }
 
 .image-div {
@@ -273,6 +273,8 @@ section {
 .sol {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    width: 20%;
+    margin-left: 40%;
 }
 
 /* Icon color and dimention */
@@ -477,6 +479,12 @@ section {
         width: 100%;
         float: right;
     }
+
+    .sol {
+        width: 20%;
+        margin-left: 30%;
+        display: inline;
+    }
 }
 
 /* For Mobiles */
@@ -559,12 +567,11 @@ section {
         width: 100%;
     }
 
-    /* .sec2 {
-        position: relative;
-        width: 100%;
-        justify-content: center;
-        background: black;
-    } */
+    .sol {
+        width: 20%;
+        margin-left: 30%;
+        display: inline;
+    }
 
 }
 
@@ -576,6 +583,7 @@ section {
         justify-content: center;
         background: var(--black-color);
     }
+
     .head .mptc-logo {
         position: relative;
         display: inline-block;
@@ -583,6 +591,7 @@ section {
         padding: 1rem;
         width: 10rem;
     }
+
     .head .name {
         font-size: 2rem;
         position: relative;
@@ -625,10 +634,16 @@ section {
         height: 850px;
         border: 8px solid black;
     }
+
+    .sol {
+        width: 20%;
+        margin-left: 40%;
+        display: inline;
+    }
 }
 
 /* For Desktop */
-@media (min-width: 993px) and (max-width: 1200px){
+@media (min-width: 993px) and (max-width: 1200px) {
     .head {
         width: 98%;
         height: 13rem;
@@ -651,6 +666,7 @@ section {
         margin-left: 10%;
         animation-delay: 1s;
     }
+
     .head1 {
         position: relative;
         width: 100%;
@@ -658,5 +674,11 @@ section {
         justify-content: center;
         text-align: center;
         background: var(--black-color);
+    }
+
+    .sol {
+        width: 20%;
+        margin-left: 40%;
+        display: inline;
     }
 }
