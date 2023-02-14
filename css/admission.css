@@ -4,17 +4,62 @@
     --black-gradient: linear-gradient(315deg, #2d3436 0%, #2d3436 74%);
 }
 
-body{
+body {
     background-color: var(--black-color);
 }
-.headHeader{
-    background-color:var(--white-color);
+
+.head2 {
+    font-family: 'courier';
 }
-.formSection{
-    background-color:var(--white-color);
+
+.headHeader {
+    background-color: var(--white-color);
+}
+
+.formSection {
+    background-color: var(--white-color);
     width: 90%;
     margin-left: 5%;
 }
-.button{
+
+.button {
+    width: 10%;
+    height: 15%;
     margin-left: 40%;
+}
+
+.form-control {
+    border: 1px solid #616e71;
+}
+
+@media (max-width:600px) {
+    .button {
+        width: 40%;
+        height: 10%;
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .button {
+        width: 30%;
+        height: 10%;
+        margin-left: 35%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .button {
+        width: 20%;
+        height: 15%;
+        margin-left: 40%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .button {
+        width: 20%;
+        height: 15%;
+        margin-left: 40%;
+    }
 }
