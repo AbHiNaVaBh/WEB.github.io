@@ -1,10 +1,10 @@
 let docTitle = document.title;
 
-window.addEventListener("blur",()=>{
+window.addEventListener("blur", () => {
     document.title = "Come Back 👀";
 });
 
 
-window.addEventListener("focus",()=>{
+window.addEventListener("focus", () => {
     document.title = docTitle;
 });
