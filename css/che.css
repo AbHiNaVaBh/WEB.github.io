@@ -1,0 +1,17 @@
+.cHome{
+    width: 100%;
+    height: 900px;
+    background: yellow;
+}
+
+
+.dbtn{
+    width: 50%;
+}
+
+.ctext{
+    font-size: 2rem;
+}
+.chepare{
+    font-family: "Courier";
+}
