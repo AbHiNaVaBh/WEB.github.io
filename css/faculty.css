@@ -1,4 +1,4 @@
-.fhome{
+.fhome {
     top: 0px;
     left: 0px;
     right: 0px;
@@ -37,39 +37,96 @@
     font-size: 2rem;
 }
 
-.tsc {
-    font-size: 1.5rem;
-    font-family: "choc";
-}
-
 .tname {
     font-size: 1.5rem;
 }
 
-.tsection{
+.tsection {
     width: 100%;
 }
 
 @media (max-width:600px) {
-    .fsc{
-        background: red;
+    .fsc {
         font-size: 4rem;
     }
-    .ffaculty{
+
+    .ffaculty {
         width: 100%;
-        
+
     }
+
     .psc {
         font-size: 3rem;
         font-family: "choc";
     }
+
     .pimg {
         width: 100%;
     }
+
     .pteacher {
         width: 80%;
         height: 40%;
         margin-left: 10%;
         margin-top: 5rem;
+    }
+
+    .tsc {
+        font-size: 1.5rem;
+        font-family: "choc";
+        padding-top: 5%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .tsc {
+        font-size: 1.5rem;
+        font-family: "choc";
+        padding-top: 5%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .fsc {
+        font-size: 4rem;
+    }
+
+    .tsc {
+        font-size: 1.3rem;
+        font-family: "choc";
+        padding-top: 5%;
+    }
+
+    .tsection {
+        width: 100%;
+        height: 18rem;
+    }
+
+    .tname {
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-top: 2%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .tname {
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-top: 2%;
+    }
+
+    .tsc {
+        font-size: 2.2rem;
+        font-family: "choc";
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 2000px) {
+    .tsc {
+        font-size: 2.2rem;
+        font-family: "choc";
+        margin-top: 10%;
     }
 }
