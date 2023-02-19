@@ -1,16 +1,20 @@
-.cHome{
+p {
+    color: white;
+}
+
+.cHome {
     width: 100%;
-    background: yellow;
 }
 
 
-.dbtn{
+.dbtn {
     width: 50%;
 }
 
-.ctext{
+.ctext {
     font-size: 2rem;
 }
-.chepare{
+
+.chepare {
     font-family: "Courier";
 }
