@@ -1,0 +1,175 @@
+p {
+    color: white;
+}
+
+.co {
+    background-color: rgb(17, 16, 16);
+}
+
+.cHome {
+    width: 100%;
+}
+
+
+.dbtn {
+    width: 50%;
+}
+
+.ctext {
+    font-size: 2rem;
+}
+
+.arrowBtn {
+    position: fixed;
+    top: 70%;
+}
+
+.bmepare {
+    font-family: "Courier";
+}
+
+@media (max-width:600px) {
+    .arrow a.arrowBtn {
+        width: 3.5rem;
+        height: 3.5rem;
+        background: black;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 90%;
+    }
+
+    .arrow a.arrowBtn i {
+        font-size: 1.7rem;
+        line-height: 3.2rem;
+        color: white;
+    }
+
+    .arrow a.arrowBtn:hover {
+        background-color: white;
+        color: #000;
+        font-size: 2rem;
+
+    }
+
+    .arrow a.arrowBtn i:hover {
+        color: #000;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .arrow a.arrowBtn {
+        width: 3.5rem;
+        height: 3.5rem;
+        background: black;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 90%;
+    }
+
+    .arrow a.arrowBtn i {
+        font-size: 1.7rem;
+        line-height: 3.2rem;
+        color: white;
+    }
+
+    .arrow a.arrowBtn:hover {
+        background-color: white;
+        color: #000;
+        font-size: 2rem;
+
+    }
+
+    .arrow a.arrowBtn i:hover {
+        color: #000;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .arrow a.arrowBtn {
+        width: 3.5rem;
+        height: 3.5rem;
+        background: black;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 90%;
+    }
+
+    .arrow a.arrowBtn i {
+        font-size: 1.7rem;
+        line-height: 3.2rem;
+        color: white;
+    }
+
+    .arrow a.arrowBtn:hover {
+        background-color: white;
+        color: #000;
+        font-size: 2rem;
+
+    }
+
+    .arrow a.arrowBtn i:hover {
+        color: #000;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .arrow a.arrowBtn {
+        width: 3.5rem;
+        height: 3.5rem;
+        background: black;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 90%;
+    }
+
+    .arrow a.arrowBtn i {
+        font-size: 1.7rem;
+        line-height: 3.2rem;
+        color: white;
+    }
+
+    .arrow a.arrowBtn:hover {
+        background-color: white;
+        color: #000;
+        font-size: 2rem;
+
+    }
+
+    .arrow a.arrowBtn i:hover {
+        color: #000;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1201px) {
+    .arrow a.arrowBtn {
+        width: 4rem;
+        height: 4rem;
+        background: black;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 95%;
+    }
+
+    .arrow a.arrowBtn i {
+        font-size: 1.7rem;
+        line-height: 4rem;
+        line-height: 3.2rem;
+        color: white;
+    }
+
+    .arrow a.arrowBtn:hover {
+        background-color: white;
+        color: #000;
+        font-size: 2rem;
+
+    }
+
+    .arrow a.arrowBtn i:hover {
+        color: #000;
+        font-size: 2rem;
+    }
+}
