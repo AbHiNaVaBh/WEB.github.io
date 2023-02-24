@@ -84,11 +84,19 @@
         font-family: "choc";
         padding-top: 5%;
     }
+    .pimg {
+        width: 60%;
+        margin-left: 20%;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
     .fsc {
         font-size: 4rem;
+    }
+    .pimg {
+        width: 60%;
+        margin-left: 20%;
     }
 
     .tsc {
@@ -115,6 +123,10 @@
         font-size: 1.5rem;
         margin-top: 2%;
     }
+    .pimg {
+        width: 60%;
+        margin-left: 20%;
+    }
 
     .tsc {
         font-size: 2.2rem;
@@ -128,5 +140,9 @@
         font-size: 2.2rem;
         font-family: "choc";
         margin-top: 10%;
+    }
+    .pimg {
+        width: 50%;
+        margin-left: 25%;
     }
 }
