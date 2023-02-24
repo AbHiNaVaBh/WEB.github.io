@@ -42,7 +42,6 @@ iframe {
     width: 60%;
     height: 500px;
     margin-left: 20%;
-    background-color: red;
 }
 
 /* a tag */
@@ -174,4 +173,96 @@ iframe {
 .csol a.clinked:hover {
     width: 3.1rem;
     height: 3.1rem;
+}
+
+
+/* Resposive  */
+
+@media (max-width:600px) {
+    .cContact {
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+
+    .ctext {
+        font-size: 1.4rem;
+    }
+
+    .locat {
+        width: 90%;
+        height: 500px;
+        margin-left: 5%;
+        margin-bottom: 2rem
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .cContact {
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+
+    .ctext {
+        font-size: 1.4rem;
+    }
+
+    .locat {
+        width: 90%;
+        height: 500px;
+        margin-left: 5%;
+        margin-bottom: 2rem
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .cContact {
+        width: 76%;
+        margin-top: -400px;
+        margin-left: 20%;
+        margin-bottom: 50px;
+    }
+
+    .locat {
+        width: 80%;
+        height: 500px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .cContact {
+        width: 76%;
+        margin-top: -450px;
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+
+    .locat {
+        width: 80%;
+        height: 500px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .cContact {
+        width: 76%;
+        margin-top: -500px;
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+
+    .locat {
+        width: 80%;
+        height: 500px;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
 }
