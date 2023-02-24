@@ -1,0 +1,110 @@
+.cContact {
+    width: 80%;
+    background-color: red;
+    margin-top: -400px;
+    margin-left: 10%;
+    margin-bottom: 200px;
+}
+/* a tag */
+
+.csol a.cphone {
+    display: flex;
+    background: green;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+    margin-left: 50%;
+
+}
+
+.csol a.cemail {
+    display: flex;
+    background: wheat;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+    margin-left: 50%;
+
+}
+
+.csol .row a.cinsta {
+    display: flex;
+    background: #C13584;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+    margin-left: 50%;
+
+}
+
+.csol .row a.cface {
+    display: flex;
+    background: #4267B2;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+    margin-left: 50%;
+
+}
+
+.csol .row a.clinked {
+    display: flex;
+    background: #0077b5;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+    margin-left: 50%;
+
+}
+
+/* i tag */
+
+.csol a.cphone i {
+    font-size: 1.7rem;
+    color: white;
+    line-height: 4rem;
+    transition: .5s;
+    margin-left: 24%;
+}
+
+.csol a.cemail i {
+    font-size: 1.7rem;
+    color: #0077b5;
+    line-height: 4rem;
+    transition: .5s;
+    margin-left: 24%;
+}
+
+.csol a.cinsta i {
+    font-size: 1.7rem;
+    color: white;
+    line-height: 4rem;
+    transition: .5s;
+    margin-left: 24%;
+}
+
+.csol a.cface i {
+    font-size: 1.7rem;
+    color: white;
+    line-height: 4rem;
+    transition: .5s;
+    margin-left: 24%;
+}
+
+.csol a.clinked i {
+    font-size: 1.7rem;
+    color: white;
+    line-height: 4rem;
+    transition: .5s;
+    margin-left: 24%;
+}
