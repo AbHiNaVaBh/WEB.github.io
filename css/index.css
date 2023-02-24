@@ -175,9 +175,9 @@ section {
 
 .pera {
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--white-color);
-    letter-spacing: 0rem;
+    letter-spacing: 0.1rem;
     font-family: cinzel;
 
 }
