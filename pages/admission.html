@@ -39,9 +39,7 @@
                     <a href="/pages/about.html" class="w3-button w3-bar-item px-4 py-2 ms-3">About</a>
                     <a href="/pages/admission.html" class="w3-button w3-bar-item px-4 py-2 ms-3">Admission</a>
                     <a href="/pages/faculty.html" class="w3-button w3-bar-item px-4 py-2 ms-3">Faculty</a>
-                    <a href="#academics" class="w3-button w3-bar-item px-4 py-2 ms-3">Academics</a>
-                    <a href="#syllabus" class="w3-button w3-bar-item px-4 py-2 ms-3">Syllabus</a>
-                    <a href="#contact" class="w3-button w3-bar-item px-4 py-2 ms-3">Contact</a>
+                    <a href="/pages/contact.html" class="w3-button w3-bar-item px-4 py-2 ms-3">Contact</a>
                 </div>
             </div>
 
@@ -64,20 +62,20 @@
                 <!-- First Name... -->
                 <div class="col-md-9 my-3">
                     <label for="validationCustom01" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="validationCustom01" required>
+                    <input type="text" class="form-control" id="validationCustom01" name="fname" placeholder="First Name" required>
                 </div>
 
                 <!-- Second Name -->
                 <div class="col-md-9 my-3">
                     <label for="validationCustom02" class="form-label">Last name</label>
-                    <input type="text" class="form-control" id="validationCustom02" required>
+                    <input type="text" class="form-control" id="validationCustom02" name="lname" placeholder="Last Name" required>
                 </div>
 
                 <!-- Phone Number -->
                 <div class="col-md-9 my-3">
                     <label for="phoneNumber">Phone Number</label>
                     <input type="text" class="form-control" id="phoneNumber" aria-describedby="phoneNumberHelp"
-                        pattern="[0-9]{10}" required />
+                        pattern="[0-9]{10}" name="phone" placeholder="+91XXXXXXXXXX" required />
                     <small id="phoneNumberHelp" class="form-text invalid-feedback">Enter a valid 10-digit phone
                         number</small>
                 </div>
@@ -138,14 +136,14 @@
 
                 <!-- Remember me check box -->
 
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck3">
                         <label class="form-check-label" for="invalidCheck3">
                             Remember Me
                         </label>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Submit Button -->
                 <button class="btn btn-primary button" type="submit">Submit</button>
@@ -193,7 +191,7 @@
 
         <!-- script -->
     <script src="/js/admission.js"></script>
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
     <!-- Code By Abhinav PP -->
 </body>
 
