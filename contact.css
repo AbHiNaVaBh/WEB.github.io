@@ -7,6 +7,7 @@
 
 .ctext {
     font-family: 'cursive';
+    text-decoration: none;
 }
 
 .cont {
@@ -187,7 +188,8 @@ iframe {
     }
 
     .ctext {
-        font-size: 1.4rem;
+        font-size: .9rem;
+        padding-left: 7%;
     }
 
     .locat {
